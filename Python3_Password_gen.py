@@ -10,8 +10,8 @@ Passwortgenerator von nocheatoriginal
 # TODO
 Alle generierten Passwörter sollen in der gleichen Datei
 gespeichert sein. User sollen eine Applikation oder Internet-
-seite dazu schreiben lassen können, um in der Textdatei das
-die Passwörter für die jeweiligen Dienste zu finden.
+seite dazu schreiben lassen können, um in der Textdatei die
+Passwörter für die jeweiligen Dienste zu finden.
 '''
 import random, os
 from tkinter import Tk
