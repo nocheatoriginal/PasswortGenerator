@@ -3,9 +3,15 @@ Generiert ein Passwort mit mindesten 4 Zeichen
 und höchstens 20 Zeichen. Das Passwort kann Kleinbuchstaben,
 Großbuchstaben, Zahlen und ausgewählte Sonderzeichen enthalten.
 Das Passwort mit beliebiger Länge (20 <= Passwort >= 4) wird
-in einer Text-Datei 'genPASSWORT.txt' gespeichert und in die
+in einer Text-Datei 'neues_passwort.txt' gespeichert und in die
 Zwischenablage kopiert.
 Passwortgenerator von nocheatoriginal
+
+# TODO
+Alle generierten Passwörter sollen in der gleichen Datei
+gespeichert sein. User sollen eine Applikation oder Internet-
+seite dazu schreiben lassen können, um in der Textdatei das
+die Passwörter für die jeweiligen Dienste zu finden.
 '''
 import random, os
 from tkinter import Tk
