@@ -67,8 +67,8 @@ def main():
         if successfully:
             request_save = input("In Zweischenablage kopieren und das\nPasswort in einer Datei speichern? [J/n] ")
             if request_save == 'JA' or request_save == 'Ja' or request_save == 'ja' or request_save == 'J' or request_save == 'j' or request_save == '':
-                with open("neues_passwort.txt", "w") as save_file:
-                    save_file.write("PASSWORT:%s" % passwort)
+                with open("neues_passwort.txt", "a") as save_file:
+                    save_file.write("\nPASSWORT:%s" % passwort)
 
                     clipboard = Tk()
                     clipboard.withdraw()
